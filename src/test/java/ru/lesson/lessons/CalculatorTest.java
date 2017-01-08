@@ -24,8 +24,8 @@ public class CalculatorTest {
     @Test
     public void testMultiplication() throws Exception {
         Calculator calculator = new Calculator();
-        calculator.multiplication(3, 5);
-        Assert.assertEquals(calculator.getResult(), 15);
+        calculator.multiplication(4, 5);
+        Assert.assertEquals(calculator.getResult(), 20);
     }
 
     @Test
